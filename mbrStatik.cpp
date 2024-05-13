@@ -19,6 +19,6 @@ class mahasiswa{
 int mahasiswa :: nim =20;
 
 void mahasiswa :: setID(){
-    
+    id =nim++;
 }
 
