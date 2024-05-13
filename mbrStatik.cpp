@@ -20,7 +20,7 @@ class Mahasiswa{
 int Mahasiswa :: nim =20;
 
 void Mahasiswa :: setID(){
-    id =nim++;
+    id = ++nim;
 }
 
 void  Mahasiswa :: printALL()
