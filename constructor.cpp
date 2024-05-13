@@ -11,7 +11,7 @@ public :
     Mahasiswa()
     {
         nim =0;
-        nama="";
+        nama="Irza";
     };
     //constructor 2
     Mahasiswa( int iNim)
@@ -45,7 +45,7 @@ Mahasiswa :: Mahasiswa(int iNim,string iNama)
 int main (){
     Mahasiswa mhs1;
     Mahasiswa mhs2(94);
-    Mahasiswa mhs3("Irza");
+    Mahasiswa mhs3(94,"Irza");
     Mahasiswa mhs4(94,"Irza");
 
     mhs1.cetak();
