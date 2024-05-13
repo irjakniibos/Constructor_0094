@@ -36,3 +36,20 @@ void Mahasiswa :: printALL()
     cout << "Nama = "<< nama << endl;
     cout << endl;
 }
+
+int main (){
+    Mahasiswa mhs1("Sri Dadi");
+    Mahasiswa mhs2("Budi Jatmiko");
+    Mahasiswa::setNim(9); // mengakses nim melalui static member function "setNim"
+
+    Mahasiswa mhs3("Andi Janu");
+    Mahasiswa mhs4("Joko Wahono");
+
+    mhs1.printALL();
+    mhs2.printALL();
+    mhs3.printALL();
+    mhs4.printALL();
+
+    cout << "akses dari luar object = " << Mahasiswa :: getNim() << endl;//mengakses nim
+    return 0;
+}
